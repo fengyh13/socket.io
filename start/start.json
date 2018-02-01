@@ -1,0 +1,25 @@
+[{
+  "name"        : "s3003",
+  "script"      : "index.js",
+  "cwd"         : "../server",
+  "exec_mode"   : "fork",
+  "instances"   : 1,
+  "env": {
+      "NODE_ENV": "production",
+      "PORT": 3003,
+      "DEBUG": "*",
+      "DEBUG_FD"  : 1
+  }
+},{
+  "name"        : "s3004",
+  "script"      : "index.js",
+  "cwd"         : "../server",
+  "exec_mode"   : "fork",
+  "instances"   : 1,
+  "env": {
+      "NODE_ENV": "production",
+      "PORT": 3004,
+      "DEBUG": "*",
+      "DEBUG_FD"  : 1
+  }
+}]
