@@ -22,3 +22,8 @@ clinet里user1.js和user2.js是两个简单测试代码
 先 node user2.js
 
 然后 node user1.js  //user1向user2发送消息
+
+
+5、测试最大连接数
+
+node  socetCountTest.js
