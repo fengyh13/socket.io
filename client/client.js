@@ -25,6 +25,7 @@ class client{
     this.socket.on('chat', (msg) => {
       console.log("back msg===>", msg)
     });
+    return this.socket;
   }
   sendText(msg){
     this.socket.emit('chat', msg, (data)=>{
