@@ -2,7 +2,7 @@ const Redis = require('redis');
 const adapter = require('socket.io-redis');
 
 const HOST = "localhost";
-const PORT = 5818;
+const PORT = 6379;
 
 module.exports.attach = (io)=>{
   const pub = Redis.createClient(PORT, HOST);
